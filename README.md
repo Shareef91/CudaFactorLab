@@ -1,10 +1,10 @@
 # CudaFactorLab
 
-Parallel factorization experiments (CUDA) — CSC 473 Parallel Processing, Assignment 4
+Parallel factorization experiments (CUDA)
 
 Short description
 -----------------
-This small repository contains CUDA/C++ implementations for parallel factorization used for the CSC 473 assignment 4. It includes two CUDA source files and experiment output files.
+This repository contains CUDA/C++ implementations for parallel factorization experiments. It includes CUDA source files and experiment output files demonstrating different approaches to factorization on NVIDIA GPUs.
 
 Why this repo
 --------------
@@ -15,7 +15,7 @@ Repository contents
 -------------------
 - `pfactor.cu` — CUDA implementation (primary file in workspace).
 - `sfactor.cu` — Alternative implementation or serial version (if present).
-- `*.exp` — Experiment/output files from runs (kept for grading/reproducibility).
+- `*.exp` — Experiment/output files from runs (kept for reproducibility).
 
 Prerequisites
 -------------
@@ -47,21 +47,20 @@ Replace `<args>` with any input parameters your assignment expects (see comments
 
 Notes
 -----
-- The `.exp` files are stored for reproducibility and grading; regenerate them by running the binaries with the same inputs.
+- The `.exp` files are stored for reproducibility; regenerate them by running the binaries with the same inputs.
 - If you rely on a Makefile or custom compilation flags, consider adding a `Makefile` or `build` script.
 
 Contributing
 ------------
-This repo is small and intended for course submission. If you want to extend it:
+This repository contains example implementations and experimental outputs. Ideas to extend it:
 
 - Add a `Makefile` or CMake configuration for portability.
 - Add a `tests/` folder with small input cases and expected outputs to quickly verify correctness.
 
 Suggested next steps (to put on GitHub)
 -------------------------------------
-1. Initialize a local Git repo (already done in this workspace).
-2. Create a new GitHub repository named `CudaFactorLab` (or pick one of the other suggested names below).
-3. Add the GitHub remote and push your local branch:
+1. Create a new GitHub repository (for example: `CudaFactorLab`).
+2. Add the GitHub remote and push your local branch:
 
 ```powershell
 git remote add origin <GITHUB_REPO_URL>
@@ -71,7 +70,7 @@ git push -u origin main
 
 License
 -------
-If this is your assignment, keep the license as-is for school use; if you'd like a permissive license, add an `MIT` license file.
+Add an appropriate license if you plan to share this repository publicly (MIT is a common permissive choice).
 
 Contact
 -------
