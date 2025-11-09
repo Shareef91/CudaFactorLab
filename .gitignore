@@ -1,0 +1,29 @@
+# Build artefacts
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# nvcc / CUDA
+*.ptx
+*.cubin
+*.fatbin
+*.nvprof
+
+# Visual Studio / VS Code
+.vscode/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OneDrive / temporary
+~$*
+*.tmp
+*.bak
+
+# Experiment output
+*.exp
