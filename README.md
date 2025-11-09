@@ -24,10 +24,10 @@ Prerequisites
 
 Build
 -----
-From the project root (PowerShell):
+From the project root (PowerShell). Example using a generic folder path:
 
 ```powershell
-cd 'c:\Users\ganam\OneDrive\Desktop\Fall Semester 2025\Parallel Processing CSC 473\assignment 4'
+cd 'C:\Projects\CudaFactorLab'
 nvcc -O2 pfactor.cu -o pfactor
 # or for the other file:
 nvcc -O2 sfactor.cu -o sfactor
